@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form id="todo-form">
+      <label for="new-todo">Dodaj todo:</label>
+      <input type="text" name="new-todo" id="new-todo" required />
+      <button type="submit">Dodaj</button>
+    </form>
+
+    <button id="remove-all-button">Obriši sve</button>
+
+    <button id="remove-done-button">Obriši sve gotove</button>
+    <div id="todo-wrapper">
+      <div id="todo-container">
+        <main></main>
+      </div>
+    </div>
+
+    <script defer type="module" src="./crud.js"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+/* input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 0.33rem;
+  margin-bottom: 1px;
+}
+
+body {
+  margin: 40px 20px;
+  text-align: center;
+  background-color: beige;
+}
+
+#todo-container {
+  width: 300px;
+  height: 230px;
+  overflow-y: auto;
+  border: 1px solid transparent;
+  margin-top: 10px;
+}
+
+#todo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#remove-all-button,
+#remove-done-button {
+  display: inline;
+  margin: 0px 5px 10px 0px;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(235, 68, 68);
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  font-family: "Space Grotesk", sans-serif;
+  text-decoration: none;
+}
+
+/* .todo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 15px;
+} */
+
+/* .todo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.todo button {
+  position: absolute;
+  right: 10px;
+  margin-top: 0.5rem;
+}
+
+.todo .delete-button {
+  margin-left: -6px;
+  z-index: 1;
+}
+
+.todo .edit-button {
+  z-index: 2;
+  margin-right: 2.4rem;
+}
+
+.todo:first-child {
+  margin-top: -0.2rem;
+}
+
+.todo label {
+  display: flex;
+  align-items: center;
+}
+
+div button {
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+}
+
+div input {
+  justify-self: center;
+}
+
+.delete-button {
+  margin-left: -6px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  min-width: 320px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+input[type="text"] {
+  flex: 1;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+button[type="submit"] {
+  background-color: rgba(12, 170, 12, 0.756);
+  margin-top: 0.4vh;
+  flex: 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Space Grotesk", sans-serif;
+} */

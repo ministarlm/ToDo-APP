@@ -1,0 +1,114 @@
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin: 0.33rem 0.33rem 0.1rem 2rem;
+}
+
+body {
+  margin: 40px 20px;
+  text-align: center;
+  background-color: beige;
+}
+
+#todo-container {
+  background-color: rgb(255, 255, 116);
+  width: 300px;
+  height: 250px;
+  border: 1px solid transparent;
+  margin-top: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+#todo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#remove-all-button,
+#remove-done-button {
+  display: inline;
+  margin: 20px 5px 25px 0px;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(235, 68, 68);
+  border-width: 1.5px;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  font-family: "Space Grotesk", sans-serif;
+  text-decoration: none;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
+  padding: 5px;
+  width: 100%;
+}
+
+.todo:first-child {
+  margin-top: 3px;
+}
+
+.todo .delete-button {
+  margin-left: 0.33rem;
+  margin-right: 1rem;
+}
+
+.todo .edit-button {
+  margin-left: 0.33rem;
+  margin-right: -0.33rem;
+}
+
+.todo label {
+  flex: 1;
+  text-align: center;
+}
+
+div button {
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  min-width: 320px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+input[type="text"] {
+  flex: 1;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+button[type="submit"] {
+  background-color: rgba(12, 170, 12, 0.756);
+  margin-top: 0.4vh;
+  flex: 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Space Grotesk", sans-serif;
+}
